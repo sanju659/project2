@@ -1,10 +1,19 @@
-let a = prompt("Enter Your Age");
-a = Number.parseInt(a);
-if(a > 0)
+const exp = "Mango";
+
+switch(exp)
 {
-	alert("this is a valid age");
-}
-else
-{
-	alert("this is an invalid age");
+case "Orange":
+	console.log("Orange");
+	break;
+case "Banana":
+	console.log("Banana");
+	break;
+case "Apple":
+	console.log("Apple");
+	break;
+case "Mango":
+	console.log("Mango");
+	break;
+default:
+	console.log("What the Fuck");
 }
